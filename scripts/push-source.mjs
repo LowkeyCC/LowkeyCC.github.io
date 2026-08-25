@@ -10,6 +10,7 @@ const repo = 'LowkeyCC.github.io'
 const API = 'https://api.github.com'
 
 const SKIP = [
+  /(^|[/\\])\.git([/\\]|$)/,
   /(^|[/\\])node_modules([/\\]|$)/,
   /(^|[/\\])\.vitepress[/\\](dist|cache)([/\\]|$)/,
   /(^|[/\\])tiddlywiki([/\\]|$)/,
@@ -87,8 +88,13 @@ async function pushOne(rel, content) {
   const url = '/repos/' + owner + '/' + repo + '/contents/' + encodeURI(rel)
   const body = { message: 'Add wiki source: ' + rel, content, encoding: 'base64' }
   const cur = await api(url)
-  if (cur.ok) body.sha = (await cur.json()).sha
+  if (cur.ok) {
+    const j = await cur.json()
+    if (j.content === content) return 'skip'
+    body.sha = j.sha
+  }
   const r = await api(url, { method: 'PUT', body: JSON.stringify(body) })
+  if (!r.ok) console.error('  ->', rel, r.status, await r.text())
   return r.ok
 }
 

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "tank",
+    "name": "Vivants",
+    "color": "#60a5fa"
+  },
+  {
+    "id": "offensif",
+    "name": "Revenants",
+    "color": "#f87171"
+  }
+]

@@ -4,7 +4,7 @@ backend:
   branch: main
   base_url: https://lowkeycc.github.io
   auth_endpoint: https://REMPLACEZ-MOI.workers.dev/callback
-  app_id: REMPLACEZ-MOI_CLIENT_ID
+  app_id: Ov23li3mlsNwQiC8S3rE
 
 publish_mode: editorial_workflow
 media_folder: public/uploads

@@ -1,0 +1,62 @@
+backend:
+  name: github
+  repo: LowkeyCC/LowkeyCC.github.io
+  branch: main
+  base_url: https://lowkeycc.github.io
+  auth_endpoint: https://REMPLACEZ-MOI.workers.dev/callback
+  app_id: REMPLACEZ-MOI_CLIENT_ID
+
+publish_mode: editorial_workflow
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: accueil
+    label: Page d'accueil
+    files:
+      - name: index
+        label: Accueil (index.md)
+        file: index.md
+        fields:
+          - { name: title, label: Titre, widget: string }
+          - { name: body, label: Contenu, widget: markdown }
+  - name: regles
+    label: Règles
+    folder: regles
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Titre, widget: string }
+      - { name: body, label: Contenu, widget: markdown }
+  - name: masques
+    label: Masques
+    folder: masques
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Titre, widget: string }
+      - { name: body, label: Contenu, widget: markdown }
+  - name: guide-joueur
+    label: Guide joueur
+    folder: guide-joueur
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Titre, widget: string }
+      - { name: body, label: Contenu, widget: markdown }
+  - name: technique
+    label: Technique
+    folder: technique
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Titre, widget: string }
+      - { name: body, label: Contenu, widget: markdown }
+  - name: bal
+    label: Bal
+    folder: bal
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: title, label: Titre, widget: string }
+      - { name: body, label: Contenu, widget: markdown }

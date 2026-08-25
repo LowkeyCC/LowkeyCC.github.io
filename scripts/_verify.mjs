@@ -1,0 +1,5 @@
+const t = require('./tiddlywiki/import.json')
+const pages = t.filter(x => !x.title.startsWith('$:/') && !['Accueil', 'Sommaire'].includes(x.title))
+console.log('total', t.length, 'pages', pages.length)
+console.log('--- sample:', pages[0].title)
+console.log(pages[0].text.slice(0, 600))

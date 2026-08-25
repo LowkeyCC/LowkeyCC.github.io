@@ -1,0 +1,442 @@
+[
+  {
+    "id": "epine",
+    "name": "Masque de l'Epine",
+    "lore": "Ce masque hérissé de ronces protège son porteur et riposte à chaque attaque.",
+    "pv": 17,
+    "style": "tank",
+    "combat": {
+      "name": "Aiguillon",
+      "damage": 2
+    },
+    "talent": {
+      "name": "Ronces",
+      "description": "Quand un autre masque vous inflige des dégâts, l'attaquant subit 2 dégâts en retour."
+    }
+  },
+  {
+    "id": "messager",
+    "name": "Masque du Messager",
+    "lore": "Ce masque aux yeux dorés transmet les pensées les plus secrètes.",
+    "pv": 12,
+    "style": "information",
+    "combat": {
+      "name": "Pensée Perçante",
+      "damage": 3
+    },
+    "night": {
+      "name": "Passerelle",
+      "description": "Choisissez un joueur. Le MJ lui envoie un message de votre part (max 30 mots). Anonyme."
+    }
+  },
+  {
+    "id": "effroi",
+    "name": "Masque de l'Effroi",
+    "lore": "Personne ne connaît la veritable apparence de ce masque car celui-ci adopte l'apparence de la plus grande peur de celui qui le regarde.",
+    "pv": 15,
+    "style": "offensif",
+    "combat": {
+      "name": "Cauchemar",
+      "damage": 2
+    },
+    "talent": {
+      "name": "Terreur",
+      "description": "En Duel, l'Attaque de Combat adverse inflige 1 dégât de moins."
+    }
+  },
+  {
+    "id": "souffrance",
+    "name": "Masque de la Souffrance",
+    "lore": "Ce masque de flammes dorées brûle de l'intérieur — plus il combat, plus il devient fort.",
+    "pv": 17,
+    "style": "offensif",
+    "combat": {
+      "name": "Flambée",
+      "damage": 1
+    },
+    "talent": {
+      "name": "Embrasement",
+      "description": "Pour chaque tranche de 3 PV manquants, votre attaque de combat inflige +1 dégât de manière permanente."
+    }
+  },
+  {
+    "id": "souvenir",
+    "name": "Masque du Souvenir",
+    "lore": "Ce masque aux couleurs vives enregistre chacune des personnes qu'il a pu rencontrer.",
+    "pv": 11,
+    "style": "tank",
+    "combat": {
+      "name": "Mémorisation",
+      "damage": 3
+    },
+    "day": {
+      "name": "Echo",
+      "description": "Infligez 2 dégâts fixes au masque d'un joueur que vous avez défié en Duel durant cette partie (fin de journée)."
+    }
+  },
+  {
+    "id": "incendie",
+    "name": "Masque de l'Incendie",
+    "lore": "Ce masque de flammes incandescentes brûle de plus en plus fort quand le danger approche.",
+    "pv": 13,
+    "style": "offensif",
+    "combat": {
+      "name": "Flambée",
+      "damage": 4
+    },
+    "talent": {
+      "name": "Brasier",
+      "description": "Quand vos PV tombent sous 6, vos dégâts de combat augmentent de +2 de manière permanente."
+    }
+  },
+  {
+    "id": "foudre",
+    "name": "Masque de la Foudre",
+    "lore": "Ce masque crache des étincelles qui paralysent les plus vulnérables.",
+    "pv": 13,
+    "style": "offensif",
+    "combat": {
+      "name": "Décharge",
+      "damage": 3
+    },
+    "talent": {
+      "name": "Attirance",
+      "description": "Vous infligez 2 dégâts supplémentaires aux masques qui ont subi des dégâts cette Nuit."
+    },
+    "night": {
+      "name": "Entraves",
+      "description": "Infligez 4 dégâts au masque du joueur de votre choix."
+    }
+  },
+  {
+    "id": "parasite",
+    "name": "Masque du Parasite",
+    "lore": "Ce masque couvert de vrilles suce la vie de ceux qui l'approchent.",
+    "pv": 16,
+    "style": "offensif",
+    "combat": {
+      "name": "Haleine Fétide",
+      "damage": 3,
+      "selfHeal": 3
+    },
+    "night": {
+      "name": "Infestation",
+      "description": "Choisissez un joueur. À la fin de chaque nuit, infligez-lui 2 dégâts et soignez-vous 1 PV. Vous ne pouvez plus utiliser cette attaque tant que le masque du joueur choisi n'est pas brisé."
+    }
+  },
+  {
+    "id": "poursuite",
+    "name": "Masque de la Poursuite",
+    "lore": "Ce masque à l'allure fuyante traque sa proie d'un salon à l'autre sans jamais la lâcher.",
+    "pv": 11,
+    "style": "offensif",
+    "combat": {
+      "name": "Griffures",
+      "damage": 3
+    },
+    "day": {
+      "name": "Traque",
+      "description": "Choisissez un joueur dans un salon vocal différent du vôtre. Infligez 3 dégâts à son masque (fin de journée)."
+    }
+  },
+  {
+    "id": "vampire",
+    "name": "Masque du Vampire",
+    "lore": "Ce masque de roses rouge sang suce la vie de ses victimes.",
+    "pv": 15,
+    "style": "support",
+    "combat": {
+      "name": "Vampirisation",
+      "damage": 3,
+      "selfHeal": 2
+    },
+    "night": {
+      "name": "Offrande Sanglante",
+      "description": "Soigne 4 PV au masque du joueur de votre choix."
+    }
+  },
+  {
+    "id": "foyer",
+    "name": "Masque du Foyer",
+    "lore": "Ce masque porte en lui l'esprit d'une mère morte en protégeant son enfant.",
+    "pv": 18,
+    "style": "offensif",
+    "combat": {
+      "name": "Gant d'amour",
+      "damage": 2
+    },
+    "talent": {
+      "name": "Lien Familial",
+      "description": "Tant que votre Enfant n'est pas K.O., vos attaques de combat infligent leurs dégâts deux fois."
+    },
+    "night": {
+      "name": "Instinct Maternel",
+      "description": "Nuit 1 uniquement — choisissez un joueur qui devient votre Enfant."
+    }
+  },
+  {
+    "id": "medium",
+    "name": "Masque du Médium",
+    "lore": "Ce masque souriant irradie une paix surnaturelle — il voit au-delà des apparences.",
+    "pv": 12,
+    "style": "tank",
+    "combat": {
+      "name": "Dystopie",
+      "damage": 2
+    },
+    "night": {
+      "name": "Spiritisme",
+      "description": "Choisissez un joueur et apprenez s'il est Vivant ou Revenant."
+    }
+  },
+  {
+    "id": "rage",
+    "name": "Masque de la Rage",
+    "lore": "Ce masque aux yeux rouges brûle de rancune — il ne pardonne jamais une offense.",
+    "pv": 13,
+    "style": "offensif",
+    "combat": {
+      "name": "Déferlante",
+      "damage": 3
+    },
+    "day": {
+      "name": "Rancune",
+      "description": "Infligez 4 dégâts au masque d'un joueur qui vous a défiez en Duel durant cette partie."
+    }
+  },
+  {
+    "id": "chirurgical",
+    "name": "Masque Chirurgical",
+    "lore": "Ce masque de tissu simple en apparence, mais il est en réalité béni par les dieux.",
+    "pv": 14,
+    "style": "information",
+    "combat": {
+      "name": "Impact",
+      "damage": 4
+    },
+    "talent": {
+      "name": "Immunité",
+      "description": "Votre masque est insensible aux effets de statut."
+    }
+  },
+  {
+    "id": "empathique",
+    "name": "Masque de l'Empathique",
+    "lore": "Ce masque de cristal reflète les émotions de ceux qui l'entourent.",
+    "pv": 14,
+    "style": "support",
+    "combat": {
+      "name": "Gros Câlin",
+      "damage": 1
+    },
+    "talent": {
+      "name": "Empathie",
+      "description": "Quand vous soignez un masque, soignez-vous autant de PV."
+    },
+    "day": {
+      "name": "Baume au coeur",
+      "description": "Soigne 3 PV au masque du joueur de votre choix."
+    }
+  },
+  {
+    "id": "maestro",
+    "name": "Masque du Maestro",
+    "lore": "Ce masque ressemblant à une ancienne poupée ventriloque produit des sons dignes d'un orchestre.",
+    "pv": 10,
+    "style": "assassin",
+    "combat": {
+      "name": "Moderato",
+      "damage": 2
+    },
+    "night": {
+      "name": "Crescendo",
+      "description": "Infligez 1 dégât au masque d'un joueur. Les dégâts augmentent de 1 à chaque utilisation sur la même cible."
+    }
+  },
+  {
+    "id": "abysse",
+    "name": "Masque de l'Abysse",
+    "lore": "Ce masque aux yeux abyssaux jette un regard qui fige l'âme.",
+    "pv": 15,
+    "style": "offensif",
+    "combat": {
+      "name": "Poing d'Ombre",
+      "damage": 4
+    },
+    "night": {
+      "name": "Regard Noir",
+      "description": "Une fois par partie — choisissez un joueur. S'il n'est pas de votre camp, infligez-lui Maudit."
+    }
+  },
+  {
+    "id": "vampirisme",
+    "name": "Masque du Vampirisme",
+    "lore": "Ce masque dévore la vie de ses victimes pour se nourrir.",
+    "pv": 11,
+    "style": "offensif",
+    "combat": {
+      "name": "Aspiration",
+      "damage": 4,
+      "selfHeal": 2
+    },
+    "night": {
+      "name": "Piqûre",
+      "description": "Infligez 2 dégâts à un joueur, soignez-vous 2 PV."
+    }
+  },
+  {
+    "id": "rocher",
+    "name": "Masque du Rocher",
+    "lore": "Ce masque de pierre ancienne est incassable — le premier masque du bal.",
+    "pv": 20,
+    "style": "tank",
+    "combat": {
+      "name": "Frappe de Pierre",
+      "damage": 3
+    },
+    "talent": {
+      "name": "Volonté de pierre",
+      "description": "Vous subissez 50% des dégâts des attaques de combat (arrondi au supérieur)."
+    }
+  },
+  {
+    "id": "sans-visage",
+    "name": "Masque du Sans-Visage",
+    "lore": "Ce masque aux formes changeantes incarne l'illusion parfaite.",
+    "pv": 13,
+    "style": "information",
+    "combat": {
+      "name": "Brume",
+      "damage": 2
+    },
+    "talent": {
+      "name": "Identification",
+      "description": "La première fois que vous infligez des dégâts, vous apprenez le masque du joueur ciblé."
+    },
+    "night": {
+      "name": "Métamorphose",
+      "description": "Choisissez un masque et copiez-le. Les pouvoirs qui voient le masque vous identifieront comme ce masque. Au K.O., c'est le masque copié qui est révélé."
+    }
+  },
+  {
+    "id": "sacrifice",
+    "name": "Masque du Sacrifice",
+    "lore": "Ce masque cornu frappe avec une force désespérée — il se blesse lui-même pour détruire.",
+    "pv": 14,
+    "style": "offensif",
+    "combat": {
+      "name": "Pointe",
+      "damage": 6,
+      "selfDamage": 3
+    },
+    "day": {
+      "name": "Percée",
+      "description": "Choisissez un joueur dans votre salon vocal. Infligez 1 dégât + 1 dégât par tranche de 4 PV manquants (fin de journée)."
+    }
+  },
+  {
+    "id": "courroux",
+    "name": "Masque du Courroux",
+    "lore": "Ce masque de singe enragé — il frappe ceux qui l'ont blessé.",
+    "pv": 12,
+    "style": "offensif",
+    "combat": {
+      "name": "Poing Flamboyant",
+      "damage": 2
+    },
+    "night": {
+      "name": "Fureur",
+      "description": "Choisissez un joueur qui vous a infligé des dégâts durant la partie. Infligez-lui 5 dégâts."
+    }
+  },
+  {
+    "id": "a-gaz",
+    "name": "Masque à Gaz",
+    "lore": "Ce masque de nuage empoisonné répand un brouillard toxique.",
+    "pv": 13,
+    "style": "offensif",
+    "combat": {
+      "name": "Buée",
+      "damage": 2
+    },
+    "night": {
+      "name": "Vapeur Nocive",
+      "description": "Infligez 4 dégâts au masque du joueur de votre choix."
+    }
+  },
+  {
+    "id": "sommeil",
+    "name": "Masque du Sommeil",
+    "lore": "Ce masque spectral glace les os — il berce ses victimes dans le sommeil éternel.",
+    "pv": 12,
+    "style": "offensif",
+    "combat": {
+      "name": "Rêve",
+      "damage": 4
+    },
+    "night": {
+      "name": "Berceuse",
+      "description": "Infligez Endormi au joueur de votre choix."
+    }
+  },
+  {
+    "id": "oracle",
+    "name": "Masque de l'Oracle",
+    "lore": "Ce masque étoilé irradie une lumière qui perce les mensonges.",
+    "pv": 13,
+    "style": "information",
+    "combat": {
+      "name": "Lueur",
+      "damage": 3
+    },
+    "talent": {
+      "name": "Clairvoyance",
+      "description": "Au début d'un Duel, vous apprenez le camp du joueur que vous affrontez (Vivant ou Revenant)."
+    }
+  },
+  {
+    "id": "inflexible",
+    "name": "Masque de l'Inflexible",
+    "lore": "Ce masque d'acier brut défie toutes les attaques — il ne plie jamais.",
+    "pv": 15,
+    "style": "tank",
+    "combat": {
+      "name": "Frappe Lourde",
+      "damage": 3
+    },
+    "talent": {
+      "name": "L'Indestructible",
+      "description": "Réduit de 50% tous les dégâts d'attaque subis (combat et nuit)."
+    }
+  },
+  {
+    "id": "eclat",
+    "name": "Masque de l'Eclat",
+    "lore": "Ce masque radieux comme le soleil déploie son potentiel lorsque le Soleil est au plus bas.",
+    "pv": 16,
+    "style": "offensif",
+    "combat": {
+      "name": "Lumière",
+      "damage": 3
+    },
+    "night": {
+      "name": "Radiance",
+      "description": "Si vous ne subissez pas de dégâts cette nuit, infligez 8 dégâts au masque du joueur de votre choix."
+    }
+  },
+  {
+    "id": "rempart",
+    "name": "Masque du Rempart",
+    "lore": "Ce masque d'acier semble impénétrable.",
+    "pv": 18,
+    "style": "tank",
+    "combat": {
+      "name": "Coup de Bouclier",
+      "damage": 4
+    },
+    "night": {
+      "name": "Forteresse",
+      "description": "1 fois par partie, réduisez à 0 tous les dégâts subis pendant 1 tour. Vous ne pouvez pas attaquer ce tour."
+    }
+  }
+]

@@ -25,16 +25,13 @@ function parseMd(file) {
   const pvLine = lines.find((l) => /\*\*[0-9]+\s*PV\*\*/.test(l)) || ''
   const pvMatch = pvLine.match(/\*\*([0-9]+)\s*PV\*\*/)
   const pv = pvMatch ? parseInt(pvMatch[1], 10) : null
-  let style = ''
-  const dotIdx = pvLine.indexOf('·')
-  if (dotIdx >= 0) style = pvLine.slice(dotIdx + 1).trim()
 
   const loreLines = lines
     .filter((l) => l.trim().startsWith('>'))
     .map((l) => l.replace(/^>\s?/, '').trim())
   const lore = loreLines.join(' ').trim()
 
-  return { id, name, lore, pv, style }
+  return { id, name, lore, pv }
 }
 
 const files = readdirSync(MASQUES_DIR)

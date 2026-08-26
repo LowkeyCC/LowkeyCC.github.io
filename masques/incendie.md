@@ -1,3 +1,7 @@
+---
+title: "Masque de l'Incendie"
+---
+
 # Masque de l'Incendie
 
 > Ce masque de flammes incandescentes brûle de plus en plus fort quand le danger approche.

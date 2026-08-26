@@ -1,3 +1,7 @@
+---
+title: "Masque du Courroux"
+---
+
 # Masque du Courroux
 
 > Ce masque de singe enragé — il frappe ceux qui l'ont blessé.

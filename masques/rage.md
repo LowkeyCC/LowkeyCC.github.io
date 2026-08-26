@@ -6,7 +6,7 @@ title: "Masque de la Rage"
 
 > Ce masque aux yeux rouges brûle de rancune — il ne pardonne jamais une offense.
 
-**13 PV** · offensif
+**13 PV**
 
 ## Attaque de combat
 

@@ -1,3 +1,7 @@
+---
+title: "🏆 Victoire"
+---
+
 # 🏆 Victoire
 
 ## Conditions de victoire

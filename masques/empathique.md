@@ -1,3 +1,7 @@
+---
+title: "Masque de l'Empathique"
+---
+
 # Masque de l'Empathique
 
 > Ce masque de cristal reflète les émotions de ceux qui l'entourent.

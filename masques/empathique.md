@@ -6,7 +6,7 @@ title: "Masque de l'Empathique"
 
 > Ce masque de cristal reflète les émotions de ceux qui l'entourent.
 
-**14 PV** · support
+**14 PV**
 
 ## Attaque de combat
 

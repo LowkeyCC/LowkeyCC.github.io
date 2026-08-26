@@ -6,7 +6,7 @@ title: "Masque de la Poursuite"
 
 > Ce masque à l'allure fuyante traque sa proie d'un salon à l'autre sans jamais la lâcher.
 
-**11 PV** · offensif
+**11 PV**
 
 ## Attaque de combat
 

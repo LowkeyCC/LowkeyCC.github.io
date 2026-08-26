@@ -6,7 +6,7 @@ title: "Masque de l'Abysse"
 
 > Ce masque aux yeux abyssaux jette un regard qui fige l'âme.
 
-**15 PV** · offensif
+**15 PV**
 
 ## Attaque de combat
 

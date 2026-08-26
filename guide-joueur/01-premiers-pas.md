@@ -1,3 +1,7 @@
+---
+title: "🎮 Premiers pas"
+---
+
 # 🎮 Premiers pas
 
 ## Vous êtes nouveau ?

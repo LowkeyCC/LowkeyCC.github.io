@@ -6,7 +6,7 @@ title: "Masque du Sans-Visage"
 
 > Ce masque aux formes changeantes incarne l'illusion parfaite.
 
-**13 PV** · information
+**13 PV**
 
 ## Attaque de combat
 

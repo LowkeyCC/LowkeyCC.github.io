@@ -1,18 +1,16 @@
 ---
-title: "Masque à Gaz"
+title: Masque à Gaz
 ---
+# Masque de Brume
 
-# Masque à Gaz
+> Ce masque répand de la brume autour de son porteur. Il devient ainsi impossible à reconnaître.
 
-> Ce masque de nuage empoisonné répand un brouillard toxique.
-
-**13 PV** · offensif
+**13 PV** 
 
 ## Attaque de combat
 
 **Buée** — 2 dégâts.
 
-## Capacité de nuit — Vapeur Nocive
+## Capacité de nuit — Brume Mystique
 
-Infligez 4 dégâts au masque du joueur de votre choix.
-
+Choisissez un joueur. Sa capacité de nuit échoue.

@@ -2,8 +2,8 @@ backend:
   name: github
   repo: LowkeyCC/LowkeyCC.github.io
   branch: main
-  base_url: https://lowkeycc.github.io
-  auth_endpoint: https://jekyll.lowkeycc54.workers.dev/callback
+  base_url: https://jekyll.lowkeycc54.workers.dev
+  auth_endpoint: /callback
   app_id: Ov23li3mlsNwQiC8S3rE
 
 publish_mode: editorial_workflow

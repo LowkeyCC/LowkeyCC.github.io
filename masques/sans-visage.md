@@ -1,3 +1,7 @@
+---
+title: "Masque du Sans-Visage"
+---
+
 # Masque du Sans-Visage
 
 > Ce masque aux formes changeantes incarne l'illusion parfaite.

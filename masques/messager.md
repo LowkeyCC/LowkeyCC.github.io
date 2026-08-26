@@ -6,7 +6,7 @@ title: "Masque du Messager"
 
 > Ce masque aux yeux dorés transmet les pensées les plus secrètes.
 
-**12 PV** · information
+**12 PV**
 
 ## Attaque de combat
 

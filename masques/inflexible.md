@@ -6,7 +6,7 @@ title: "Masque de l'Inflexible"
 
 > Ce masque d'acier brut défie toutes les attaques — il ne plie jamais.
 
-**15 PV** · tank
+**15 PV**
 
 ## Attaque de combat
 

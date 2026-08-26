@@ -1,3 +1,7 @@
+---
+title: "Masque du Parasite"
+---
+
 # Masque du Parasite
 
 > Ce masque couvert de vrilles suce la vie de ceux qui l'approchent.

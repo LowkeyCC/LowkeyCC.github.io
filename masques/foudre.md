@@ -6,7 +6,7 @@ title: "Masque de la Foudre"
 
 > Ce masque crache des étincelles qui paralysent les plus vulnérables.
 
-**13 PV** · offensif
+**13 PV**
 
 ## Attaque de combat
 

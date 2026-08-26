@@ -1,3 +1,7 @@
+---
+title: "Masque à Gaz"
+---
+
 # Masque à Gaz
 
 > Ce masque de nuage empoisonné répand un brouillard toxique.

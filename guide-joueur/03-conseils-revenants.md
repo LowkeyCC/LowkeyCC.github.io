@@ -1,3 +1,7 @@
+---
+title: "Conseils pour les Revenants"
+---
+
 # Conseils pour les Revenants
 
 ## Votre objectif

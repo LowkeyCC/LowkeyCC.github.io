@@ -1,3 +1,7 @@
+---
+title: "Conseils pour les Vivants"
+---
+
 # Conseils pour les Vivants
 
 ## Votre objectif

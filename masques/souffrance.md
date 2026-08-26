@@ -1,3 +1,7 @@
+---
+title: "Masque de la Souffrance"
+---
+
 # Masque de la Souffrance
 
 > Ce masque de flammes dorées brûle de l'intérieur — plus il combat, plus il devient fort.

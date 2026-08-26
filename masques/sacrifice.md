@@ -6,7 +6,7 @@ title: "Masque du Sacrifice"
 
 > Ce masque cornu frappe avec une force désespérée — il se blesse lui-même pour détruire.
 
-**14 PV** · offensif
+**14 PV**
 
 ## Attaque de combat
 

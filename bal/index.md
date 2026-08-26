@@ -1,3 +1,7 @@
+---
+title: "Le Carnaval"
+---
+
 # Le Carnaval
 
 > Un bal masqué où chacun cache bien plus que son visage.

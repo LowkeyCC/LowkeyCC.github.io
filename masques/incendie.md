@@ -6,7 +6,7 @@ title: "Masque de l'Incendie"
 
 > Ce masque de flammes incandescentes brûle de plus en plus fort quand le danger approche.
 
-**13 PV** · offensif
+**13 PV**
 
 ## Attaque de combat
 

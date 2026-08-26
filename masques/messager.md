@@ -1,3 +1,7 @@
+---
+title: "Masque du Messager"
+---
+
 # Masque du Messager
 
 > Ce masque aux yeux dorés transmet les pensées les plus secrètes.

@@ -6,7 +6,7 @@ title: "Masque du Sommeil"
 
 > Ce masque spectral glace les os — il berce ses victimes dans le sommeil éternel.
 
-**12 PV** · offensif
+**12 PV**
 
 ## Attaque de combat
 

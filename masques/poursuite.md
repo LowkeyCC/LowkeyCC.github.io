@@ -1,3 +1,7 @@
+---
+title: "Masque de la Poursuite"
+---
+
 # Masque de la Poursuite
 
 > Ce masque à l'allure fuyante traque sa proie d'un salon à l'autre sans jamais la lâcher.

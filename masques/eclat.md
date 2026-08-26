@@ -1,3 +1,7 @@
+---
+title: "Masque de l'Eclat"
+---
+
 # Masque de l'Eclat
 
 > Ce masque radieux comme le soleil déploie son potentiel lorsque le Soleil est au plus bas.

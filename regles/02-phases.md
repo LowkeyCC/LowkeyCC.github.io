@@ -1,3 +1,7 @@
+---
+title: "Phases de jeu"
+---
+
 # Phases de jeu
 
 ## Le cycle complet

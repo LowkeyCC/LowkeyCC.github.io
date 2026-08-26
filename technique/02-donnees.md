@@ -1,3 +1,7 @@
+---
+title: "📦 Données"
+---
+
 # 📦 Données
 
 ## Format des masques

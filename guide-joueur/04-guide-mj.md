@@ -1,3 +1,7 @@
+---
+title: "🎪 Guide de l'Hôte du Carnaval"
+---
+
 # 🎪 Guide de l'Hôte du Carnaval
 
 ## Votre rôle

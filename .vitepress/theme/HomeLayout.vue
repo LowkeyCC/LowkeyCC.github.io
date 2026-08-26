@@ -27,7 +27,6 @@
         <a v-for="m in displayMasques" :key="m.id" :href="'/masques/' + m.id" class="cv-card">
           <span class="cv-mask">🎭</span>
           <strong>{{ m.name }}</strong>
-          <small>{{ m.style || 'Sans style' }}</small>
           <em>{{ m.pv }} PV</em>
         </a>
       </div>
@@ -43,18 +42,6 @@ import meta from '../../meta.json'
 const displayMasques = (meta.featured && meta.featured.length)
   ? [...meta.featured.map((id) => masques.find((m) => m.id === id)).filter(Boolean), ...masques.filter((m) => !meta.featured.includes(m.id))]
   : masques
-
-const palette = {
-  tank: '#8b5cf6',
-  offensif: '#c0152f',
-  assassin: '#9b1024',
-  information: '#2f6df0',
-  support: '#16a34a'
-}
-function styleColor(s) {
-  if (!s) return '#c9a84c'
-  return palette[String(s).toLowerCase()] || '#c9a84c'
-}
 </script>
 
 <style>

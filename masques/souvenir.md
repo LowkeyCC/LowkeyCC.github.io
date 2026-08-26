@@ -1,3 +1,7 @@
+---
+title: "Masque du Souvenir"
+---
+
 # Masque du Souvenir
 
 > Ce masque aux couleurs vives enregistre chacune des personnes qu'il a pu rencontrer.

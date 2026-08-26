@@ -6,7 +6,7 @@ title: "Masque du Parasite"
 
 > Ce masque couvert de vrilles suce la vie de ceux qui l'approchent.
 
-**16 PV** · offensif
+**16 PV**
 
 ## Attaque de combat
 

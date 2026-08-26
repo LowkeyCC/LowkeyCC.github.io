@@ -6,7 +6,7 @@ title: "Masque du Médium"
 
 > Ce masque souriant irradie une paix surnaturelle — il voit au-delà des apparences.
 
-**12 PV** · tank
+**12 PV**
 
 ## Attaque de combat
 

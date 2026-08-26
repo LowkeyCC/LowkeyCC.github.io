@@ -1,3 +1,7 @@
+---
+title: "Masque de la Rage"
+---
+
 # Masque de la Rage
 
 > Ce masque aux yeux rouges brûle de rancune — il ne pardonne jamais une offense.

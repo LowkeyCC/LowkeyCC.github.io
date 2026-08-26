@@ -1,3 +1,7 @@
+---
+title: "Masque de l'Epine"
+---
+
 # Masque de l'Epine
 
 > Ce masque hérissé de ronces protège son porteur et riposte à chaque attaque.

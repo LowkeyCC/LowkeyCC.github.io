@@ -6,7 +6,7 @@ title: "Masque du Rocher"
 
 > Ce masque de pierre ancienne est incassable — le premier masque du bal.
 
-**20 PV** · tank
+**20 PV**
 
 ## Attaque de combat
 

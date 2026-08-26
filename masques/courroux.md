@@ -6,7 +6,7 @@ title: "Masque du Courroux"
 
 > Ce masque de singe enragé — il frappe ceux qui l'ont blessé.
 
-**12 PV** · offensif
+**12 PV**
 
 ## Attaque de combat
 

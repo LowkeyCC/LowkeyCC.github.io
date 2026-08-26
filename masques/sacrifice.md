@@ -1,3 +1,7 @@
+---
+title: "Masque du Sacrifice"
+---
+
 # Masque du Sacrifice
 
 > Ce masque cornu frappe avec une force désespérée — il se blesse lui-même pour détruire.

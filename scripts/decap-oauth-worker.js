@@ -24,7 +24,7 @@ async function handleRequest(request) {
   const token = data.access_token;
   if (!token) return new Response('No token: ' + JSON.stringify(data), { status: 400 });
 
-  return Response.redirect(SITE_URL + '/admin/#/auth?token=' + token, 302);
+  return Response.redirect(SITE_URL + '/admin/#/auth/' + token, 302);
 }
 
 addEventListener('fetch', (e) => e.respondWith(handleRequest(e.request)));

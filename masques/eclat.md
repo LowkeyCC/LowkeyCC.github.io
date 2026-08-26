@@ -6,7 +6,7 @@ title: "Masque de l'Eclat"
 
 > Ce masque radieux comme le soleil déploie son potentiel lorsque le Soleil est au plus bas.
 
-**16 PV** · offensif
+**16 PV**
 
 ## Attaque de combat
 

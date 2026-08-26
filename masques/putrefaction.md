@@ -6,7 +6,7 @@ title: Masque de la Putréfaction
 
 > Ce masque semble avoir été trouvé dans une poubelle et dégage une forte odeur de charogne.
 
-**12 PV** · offensif
+**12 PV**
 
 ## Attaque de combat
 

@@ -6,7 +6,7 @@ title: "Masque du Maestro"
 
 > Ce masque ressemblant à une ancienne poupée ventriloque produit des sons dignes d'un orchestre.
 
-**10 PV** · assassin
+**10 PV**
 
 ## Attaque de combat
 

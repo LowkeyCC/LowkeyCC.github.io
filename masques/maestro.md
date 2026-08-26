@@ -1,3 +1,7 @@
+---
+title: "Masque du Maestro"
+---
+
 # Masque du Maestro
 
 > Ce masque ressemblant à une ancienne poupée ventriloque produit des sons dignes d'un orchestre.

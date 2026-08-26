@@ -1,3 +1,7 @@
+---
+title: "Masque du Vampire"
+---
+
 # Masque du Vampire
 
 > Ce masque de roses rouge sang suce la vie de ses victimes.

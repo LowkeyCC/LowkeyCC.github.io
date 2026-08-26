@@ -6,7 +6,7 @@ title: "Masque du Vampire"
 
 > Ce masque de roses rouge sang suce la vie de ses victimes.
 
-**15 PV** · support
+**15 PV**
 
 ## Attaque de combat
 

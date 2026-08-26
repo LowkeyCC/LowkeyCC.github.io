@@ -1,3 +1,7 @@
+---
+title: "Les Camps"
+---
+
 # Les Camps
 
 ## Vue d'ensemble

@@ -6,7 +6,7 @@ title: "Masque de l'Epine"
 
 > Ce masque hérissé de ronces protège son porteur et riposte à chaque attaque.
 
-**17 PV** · tank
+**17 PV**
 
 ## Attaque de combat
 

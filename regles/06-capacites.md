@@ -1,3 +1,7 @@
+---
+title: "Capacités & Passifs"
+---
+
 # Capacités & Passifs
 
 ## Trois types de pouvoirs

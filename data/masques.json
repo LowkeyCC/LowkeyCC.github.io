@@ -438,5 +438,28 @@
       "name": "Forteresse",
       "description": "1 fois par partie, réduisez à 0 tous les dégâts subis pendant 1 tour. Vous ne pouvez pas attaquer ce tour."
     }
+  },
+  {
+    "id": "putrefaction",
+    "name": "Masque de la Putréfaction",
+    "lore": "Ce masque semble avoir été trouvé dans une poubelle et dégage une forte odeur de charogne.",
+    "pv": 12,
+    "style": "offensif",
+    "combat": {
+      "name": "Pas d'attaque de combat",
+      "damage": 0
+    },
+    "day": {
+      "name": "Putrescence",
+      "description": "Infligez le statut Décomposition à la cible."
+    },
+    "night": {
+      "name": "Putréfaction",
+      "description": "Ciblez un joueur affecté par le statut Décomposition, celui-ci devient un Revenant. Si la cible était déjà un Revenant, alors divisez ses PV actuels par 2."
+    },
+    "passive": {
+      "name": "Propagation",
+      "description": "Lorsque l'on vous défie en duel, infligez le statut Décomposition."
+    }
   }
 ]

@@ -6,7 +6,7 @@ title: "Masque de l'Oracle"
 
 > Ce masque étoilé irradie une lumière qui perce les mensonges.
 
-**13 PV** · information
+**13 PV**
 
 ## Attaque de combat
 

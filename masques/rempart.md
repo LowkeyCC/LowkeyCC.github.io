@@ -6,7 +6,7 @@ title: "Masque du Rempart"
 
 > Ce masque d'acier semble impénétrable.
 
-**18 PV** · tank
+**18 PV**
 
 ## Attaque de combat
 

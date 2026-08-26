@@ -1,3 +1,7 @@
+---
+title: "Masque de la Foudre"
+---
+
 # Masque de la Foudre
 
 > Ce masque crache des étincelles qui paralysent les plus vulnérables.

@@ -1,12 +1,27 @@
 [
   {
-    "id": "tank",
-    "name": "Vivants",
-    "color": "#60a5fa"
+    "id": "assassin",
+    "name": "Assassins",
+    "color": "#fbbf24"
+  },
+  {
+    "id": "information",
+    "name": "Informateurs",
+    "color": "#34d399"
   },
   {
     "id": "offensif",
     "name": "Revenants",
     "color": "#f87171"
+  },
+  {
+    "id": "support",
+    "name": "Soutiens",
+    "color": "#a78bfa"
+  },
+  {
+    "id": "tank",
+    "name": "Vivants",
+    "color": "#60a5fa"
   }
 ]

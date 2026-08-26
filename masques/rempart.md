@@ -1,3 +1,7 @@
+---
+title: "Masque du Rempart"
+---
+
 # Masque du Rempart
 
 > Ce masque d'acier semble impénétrable.

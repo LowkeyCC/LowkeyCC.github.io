@@ -6,7 +6,6 @@ backend:
   auth_endpoint: /callback
   app_id: Ov23li3mlsNwQiC8S3rE
 
-publish_mode: editorial_workflow
 media_folder: public/uploads
 public_folder: /uploads
 

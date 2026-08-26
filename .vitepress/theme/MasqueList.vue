@@ -1,21 +1,13 @@
 <template>
   <div class="ml">
-    <div class="ml-pills">
-      <button class="ml-pill" :class="{ active: activeCat === '' }" @click="activeCat = ''">Tous</button>
-      <button v-for="cat in categories" :key="cat.id" class="ml-pill"
-        :class="{ active: activeCat === cat.id }"
-        :style="{ '--pill-color': cat.color }"
-        @click="activeCat = cat.id">{{ cat.name }}</button>
-    </div>
     <ul class="ml-list">
-      <li v-for="m in filtered" :key="m.id">
+      <li v-for="m in masques" :key="m.id">
         <a :href="'/masques/' + m.id">
           <span class="ml-mask-shape"></span>
           <span class="ml-card-content">
             <strong>{{ m.name }}</strong>
             <span class="ml-meta">
               <span class="ml-pv">{{ m.pv }} PV</span>
-              <span v-if="getCat(m)" class="ml-badge" :style="{ '--cat-color': getCat(m).color }">{{ getCat(m).name }}</span>
             </span>
             <em class="ml-lore">{{ m.lore }}</em>
           </span>
@@ -26,55 +18,12 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
 import masques from '../../data/masques.json'
-import categories from '../../data/categories.json'
-
-const activeCat = ref('')
-const filtered = computed(() => {
-  if (!activeCat.value) return masques
-  return masques.filter(m => (m.category || m.style) === activeCat.value)
-})
-function getCat(m) {
-  return categories.find(c => c.id === (m.category || m.style))
-}
 </script>
 
 <style>
 .ml {
   margin-top: 28px;
-}
-
-.ml-pills {
-  display: flex;
-  gap: 8px;
-  margin-bottom: 28px;
-  flex-wrap: wrap;
-  padding: 14px;
-  border: 1px solid rgba(214, 168, 79, .22);
-  background: rgba(16, 10, 20, .72);
-}
-
-.ml-pill {
-  padding: 8px 13px;
-  border-radius: 0;
-  border: 1px solid color-mix(in srgb, var(--pill-color, #d6a84f) 72%, #27131a);
-  background: rgba(214, 168, 79, .035);
-  color: color-mix(in srgb, var(--pill-color, #d6a84f) 82%, #f9e8c7);
-  font-size: 11px;
-  font-weight: 800;
-  cursor: pointer;
-  transition: all .2s;
-  font-family: 'Cinzel', Georgia, serif;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-}
-
-.ml-pill:hover,
-.ml-pill.active {
-  background: color-mix(in srgb, var(--pill-color, #d6a84f) 24%, transparent);
-  color: #f9e8c7;
-  box-shadow: 0 0 18px color-mix(in srgb, var(--pill-color, #d6a84f) 20%, transparent);
 }
 
 .ml-list {
@@ -100,7 +49,7 @@ function getCat(m) {
   padding: 20px;
   border: 1px solid rgba(214, 168, 79, .24);
   background:
-    radial-gradient(circle at 50% 28%, rgba(214,168,79,.12), transparent 42%),
+    radial-gradient(circle at 50% 28%, rgba(214,168,79,.12), transparent 42'),
     linear-gradient(180deg, #17101b, #0b050d);
   color: #f9e8c7;
   text-decoration: none;
@@ -166,18 +115,6 @@ function getCat(m) {
   font-size: 11px;
   font-weight: 900;
   letter-spacing: .08em;
-  text-transform: uppercase;
-}
-
-.ml-badge {
-  display: inline-block;
-  padding: 2px 8px;
-  border: 1px solid var(--cat-color);
-  color: color-mix(in srgb, var(--cat-color) 78%, #f9e8c7);
-  background: color-mix(in srgb, var(--cat-color) 12%, transparent);
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: .06em;
   text-transform: uppercase;
 }
 

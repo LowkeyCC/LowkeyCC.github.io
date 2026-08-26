@@ -26,27 +26,18 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed } from 'vue'
+import masques from '../../data/masques.json'
+import categories from '../../data/categories.json'
 
-const API = import.meta.env.DEV ? 'http://localhost:3001' : ''
-const masques = ref([])
-const categories = ref([])
 const activeCat = ref('')
-
 const filtered = computed(() => {
-  if (!activeCat.value) return masques.value
-  return masques.value.filter(m => m.category === activeCat.value)
+  if (!activeCat.value) return masques
+  return masques.filter(m => (m.category || m.style) === activeCat.value)
 })
-
 function getCat(m) {
-  return categories.value.find(c => c.id === m.category)
+  return categories.find(c => c.id === (m.category || m.style))
 }
-
-onMounted(async () => {
-  const [mR, cR] = await Promise.all([fetch(API + '/api/masques'), fetch(API + '/api/categories')])
-  masques.value = await mR.json()
-  categories.value = await cR.json()
-})
 </script>
 
 <style>

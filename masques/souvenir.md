@@ -6,7 +6,7 @@ title: "Masque du Souvenir"
 
 > Ce masque aux couleurs vives enregistre chacune des personnes qu'il a pu rencontrer.
 
-**11 PV** · tank
+**11 PV**
 
 ## Attaque de combat
 

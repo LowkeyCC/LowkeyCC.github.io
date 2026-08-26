@@ -1,3 +1,7 @@
+---
+title: "Les Masques"
+---
+
 # Les Masques
 
 ## Concept

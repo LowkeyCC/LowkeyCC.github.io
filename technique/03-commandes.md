@@ -1,3 +1,7 @@
+---
+title: "🎮 Commandes"
+---
+
 # 🎮 Commandes
 
 ## Slash Commands

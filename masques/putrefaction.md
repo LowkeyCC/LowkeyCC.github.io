@@ -1,5 +1,5 @@
 ---
-title: "putrefaction"
+title: Masque de la Putréfaction
 ---
 
 ﻿# Masque de la Putréfaction

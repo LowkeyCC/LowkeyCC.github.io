@@ -1,3 +1,7 @@
+---
+title: "Masque du Rocher"
+---
+
 # Masque du Rocher
 
 > Ce masque de pierre ancienne est incassable — le premier masque du bal.

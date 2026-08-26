@@ -1,3 +1,7 @@
+---
+title: "Masque du Vampirisme"
+---
+
 # Masque du Vampirisme
 
 > Ce masque dévore la vie de ses victimes pour se nourrir.

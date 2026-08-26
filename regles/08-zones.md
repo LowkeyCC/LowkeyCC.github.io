@@ -1,3 +1,7 @@
+---
+title: "Zones"
+---
+
 # Zones
 
 ## Les trois zones du bal

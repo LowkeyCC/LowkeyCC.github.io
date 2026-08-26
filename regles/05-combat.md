@@ -1,3 +1,7 @@
+---
+title: "Le Combat"
+---
+
 # Le Combat
 
 ## Les Duels

@@ -1,3 +1,7 @@
+---
+title: "Masque de l'Inflexible"
+---
+
 # Masque de l'Inflexible
 
 > Ce masque d'acier brut défie toutes les attaques — il ne plie jamais.

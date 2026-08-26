@@ -1,3 +1,7 @@
+---
+title: "Effets spéciaux"
+---
+
 # Effets spéciaux
 
 Carnival of the Deads comporte plusieurs effets spéciaux qui sortent des mécaniques classiques.

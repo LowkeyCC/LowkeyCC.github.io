@@ -6,7 +6,7 @@ title: "Masque du Foyer"
 
 > Ce masque porte en lui l'esprit d'une mère morte en protégeant son enfant.
 
-**18 PV** · offensif
+**18 PV**
 
 ## Attaque de combat
 

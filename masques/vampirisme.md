@@ -6,7 +6,7 @@ title: "Masque du Vampirisme"
 
 > Ce masque dévore la vie de ses victimes pour se nourrir.
 
-**11 PV** · offensif
+**11 PV**
 
 ## Attaque de combat
 

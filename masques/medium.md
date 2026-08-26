@@ -1,3 +1,7 @@
+---
+title: "Masque du Médium"
+---
+
 # Masque du Médium
 
 > Ce masque souriant irradie une paix surnaturelle — il voit au-delà des apparences.

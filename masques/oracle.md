@@ -1,3 +1,7 @@
+---
+title: "Masque de l'Oracle"
+---
+
 # Masque de l'Oracle
 
 > Ce masque étoilé irradie une lumière qui perce les mensonges.

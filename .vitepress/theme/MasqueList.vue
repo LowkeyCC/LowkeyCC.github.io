@@ -49,7 +49,7 @@ import masques from '../../data/masques.json'
   padding: 20px;
   border: 1px solid rgba(214, 168, 79, .24);
   background:
-    radial-gradient(circle at 50% 28%, rgba(214,168,79,.12), transparent 42'),
+    radial-gradient(circle at 50% 28%, rgba(214,168,79,.12), transparent 42%),
     linear-gradient(180deg, #17101b, #0b050d);
   color: #f9e8c7;
   text-decoration: none;
